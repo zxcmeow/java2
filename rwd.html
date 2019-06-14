@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google Developers</title>
+    <link rel ="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="icon">Google Developers</div>
+        <div class="login">登入</div>
+        <div class="trigger">
+            <!-- https://www.iconfinder.com/search/?q=menu&price=free -->
+            <img onclick="show();" width="20" src="menu.png" />
+        </div>
+        <div id="menu" class="menu">
+            <div class="item">登入</div>
+            <div class="item">登出</div>
+        </div>
+    </div>
+    <script>
+            function show(){
+               let menu=document.getElementById("menu");
+               menu.style.display="block";
+           }
+           </script>
+    <div id="menu" class="header">
+        <div class="title" onclick="test();">Build Anything with Google</div>
+        <input class="search" type="text" />
+    </div>
+    <!-- 切塊 -->
+    <div class="main">
+        <div class="box">1</div> 
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+    <script>
+    // javascript程式
+    /*654.456;
+    true;
+    false;
+    "asd安";
+    null;//空值
+    undefined;//未定義
+    */
+    //在終端機印出一些資料:consloe.log(DATA);
+    // console.log("hello")
+    // console.log(6);
+    // console.log(true);
+    // 變數:可以裝資料的空間
+    /*let x=3;
+    console.log(x);
+    x=true;
+    console.log(x);
+    // 運算:+ - * / > < = >= <= ==
+    let y=3*5;
+    console.log(y);
+    y=6==3;
+    console.log(y);
+    */
+    // 利用內建功能，抓到想要操作的標籤
+    function test(){
+   
+    // document.getElementById(標籤ID)
+        let divTag=document.getElementById("yo");
+        console.log(divTag);
+    //修改標籤的屬性 
+    //抓到標籤.屬性名稱=新的資料;
+        // divTag.className="abc";
+        // divTag.innerHTML="Hello Google";
+    // 修改標籤的CSS的設定
+    // 抓到的標籤.style.屬性名稱=新的資料;
+    // divTag.style.color="red";
+    divTag.style.display="none";
+
+}    
+    </script>
+</body>
+</html>

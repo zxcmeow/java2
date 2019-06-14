@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://developers.google.com/?hl=zh-tw -->
+<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" id="www-widgetapi-script" src="./Google Developers_files/www-widgetapi.js.下載" async=""></script><script type="text/javascript" async="" src="./Google Developers_files/linkid.js.下載"></script><script async="" src="./Google Developers_files/analytics.js.下載"></script><script>var a=window.devsite||{};window.devsite=a;a.readyCallbacks=[];window.devsite.readyCallbacks=a.readyCallbacks;a.ready=function(b){a.readyCallbacks.push(b)};window.devsite.ready=a.ready;
+</script><meta name="xsrf_token" content="RqoMr9BFfyg4u2TBGxVMM2Q0csv9LaQwQB_Fw7AX6Fc6MTU2MDQ4OTc0MTk2MzUyNQ"><link rel="canonical" href="https://developers.google.com/"><link rel="alternate" href="https://developers.google.com/?hl=zh-cn" hreflang="zh-Hans"><link rel="alternate" href="https://developers.google.com/" hreflang="en"><link rel="alternate" href="https://developers.google.cn/?hl=zh-cn" hreflang="zh-Hans-cn"><link rel="alternate" href="https://developers.google.cn/" hreflang="en-cn"><link rel="alternate" href="https://developers.google.com/" hreflang="x-default"><script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Organization",
+    "name": "Google Developers",
+    "url": "https://developers.google.com",
+    "logo": "https://developers.google.com/_static/images/redesign-14/developers_64dp.png",
+    
+    
+    
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://developers.google.com/s/results?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script><link rel="shortcut icon" href="https://developers.google.com/_static/cd79d5771c/images/favicon.png?hl=zh-tw"><link rel="apple-touch-icon" href="https://developers.google.com/_static/cd79d5771c/images/touch-icon.png?hl=zh-tw"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./Google Developers_files/css"><link rel="stylesheet" href="./Google Developers_files/devsite-white.css"><link rel="search" type="application/opensearchdescription+xml" href="https://developers.google.com/s/opensearch.xml?hl=zh-tw" data-tooltip-align="b,c" data-tooltip="Google Developers" aria-label="Google Developers" data-title="Google Developers"><script src="./Google Developers_files/jquery-bundle.js.下載"></script><meta property="og:site_name" content="Google Developers"><meta property="og:type" content="website"><meta property="og:url" content="https://developers.google.com/"><meta property="og:locale" content="en"><script>
+    var ___gcfg = ___gcfg || {};
+    ___gcfg.lang = 'zh-tw';
+  </script><title>Google Developers</title><meta property="og:title" content="Google Developers"><meta name="description" content="Everything you need to build better apps."><meta property="og:description" content="Everything you need to build better apps."><meta property="og:image" content="https://developers.google.com/_static/cd79d5771c/images/share/devsite-white.png?hl=zh-tw"><meta property="og:image:secure_url" content="https://developers.google.com/_static/cd79d5771c/images/share/devsite-white.png?hl=zh-tw"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><link rel="stylesheet" href="./Google Developers_files/landing.css"><script src="./Google Developers_files/iframe_api"></script></head><body class="devsite-landing-page devsite-header-no-lower-tabs no-touch" data-family="endorsed" cloud-alternate-top-links-layout="true" id="top_of_page"><div class="devsite-wrapper" style="margin-top: 49px;"><div class="devsite-top-section-wrapper devsite-billboard-search-active"><header class="devsite-top-section nocontent"><div class="devsite-top-logo-row-wrapper-wrapper" style="position: fixed;"><div class="devsite-top-logo-row-wrapper"><div class="devsite-top-logo-row devsite-full-site-width"><button type="button" class="devsite-expand-section-nav devsite-header-icon-button
+                                       button-flat material-icons gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Hamburger menu"></button><div class="devsite-product-name-wrapper"><a href="https://developers.google.com/?hl=zh-tw" class="devsite-site-logo-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Site logo" track-type="globalNav" track-name="googledevelopers" track-metadata-eventdetail="nav" track-metadata-position="nav"><img src="./Google Developers_files/lockup-color.png" class="devsite-site-logo" alt="Google Developers"><span class="devsite-site-name devsite-product-name">Google Developers</span></a></div><div class="devsite-header-upper-tabs"><nav class="devsite-doc-set-nav devsite-nav devsite-overflow-tabs-scroll-wrapper"><ul class="devsite-doc-set-nav-tab-list devsite-overflow-tabs-scroll" style="min-width: 444px; left: 0px;"><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 devsite-dropdown-menu-container"><a href="https://developers.google.com/products/?hl=zh-tw" class=" devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Products">
+          Products
+        </a><span class="devsite-menu-toggle devsite-nav-tab material-icons" aria-hidden="true"></span><div class="devsite-dropdown-menu-wrapper" style="left: 253px;"><div class="devsite-dropdown-menu"><div class="devsite-dropdown-menu-column"><ul class="devsite-nav-list
+                             devsite-dropdown-menu-section
+                             "><li class="devsite-nav-item devsite-nav-item-heading"><span class="devsite-nav-title devsite-nav-title-no-path"><span>
+                          Develop
+                        </span></span></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developer.android.com/?hl=zh-tw"><span>
+                          Android
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://cloud.google.com/?hl=zh-tw"><span>
+                          Cloud Platform
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://firebase.google.com/?hl=zh-tw"><span>
+                          Firebase
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://cloud.google.com/maps-platform/?hl=zh-tw"><span>
+                          Maps Platform
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://www.tensorflow.org/?hl=zh-tw"><span>
+                          TensorFlow
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/web/?hl=zh-tw"><span>
+                          Web
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/youtube/?hl=zh-tw"><span>
+                          YouTube
+                        </span></a></li></ul></div><div class="devsite-dropdown-menu-column"><ul class="devsite-nav-list
+                             devsite-dropdown-menu-section
+                             "><li class="devsite-nav-item devsite-nav-item-heading"><span class="devsite-nav-title devsite-nav-title-no-path"><span>
+                          Grow
+                        </span></span></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://firebase.google.com/?hl=zh-tw"><span>
+                          Firebase
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/google-ads/?hl=zh-tw"><span>
+                          Google Ads
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/analytics/?hl=zh-tw"><span>
+                          Google Analytics
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developer.android.com/distribute/?hl=zh-tw"><span>
+                          Google Play
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/search/?hl=zh-tw"><span>
+                          Search
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/web/fundamentals/engage-and-retain/push-notifications/?hl=zh-tw"><span>
+                          Web Push and Notification APIs
+                        </span></a></li></ul></div><div class="devsite-dropdown-menu-column"><ul class="devsite-nav-list
+                             devsite-dropdown-menu-section
+                             "><li class="devsite-nav-item devsite-nav-item-heading"><span class="devsite-nav-title devsite-nav-title-no-path"><span>
+                          Earn
+                        </span></span></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/admob/?hl=zh-tw"><span>
+                          AdMob
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/google-ads/api/?hl=zh-tw"><span>
+                          Google Ads API
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/pay/?hl=zh-tw"><span>
+                          Google Pay
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developer.android.com/google/play/billing/?hl=zh-tw"><span>
+                          Google Play Billing
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/interactive-media-ads/?hl=zh-tw"><span>
+                          Interactive Media Ads
+                        </span></a></li></ul></div></div></div></li><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 "><a href="https://developers.google.com/events/?hl=zh-tw" class=" devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Events">
+          Events
+        </a></li><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 devsite-dropdown-menu-container"><a href="https://developers.google.com/programs/?hl=zh-tw" class=" devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Developer Programs">
+          Developer Programs
+        </a><span class="devsite-menu-toggle devsite-nav-tab material-icons" aria-hidden="true"></span><div class="devsite-dropdown-menu-wrapper" style="left: 446.55px;"><div class="devsite-dropdown-menu"><div class="devsite-dropdown-menu-column"><ul class="devsite-nav-list
+                             devsite-dropdown-menu-section
+                             "><li class="devsite-nav-item devsite-nav-item-heading"><span class="devsite-nav-title devsite-nav-title-no-path"><span>
+                          Community-based
+                        </span></span></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/programs/community/?hl=zh-tw"><span>
+                          Community Groups Program
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/programs/dsc/?hl=zh-tw"><span>
+                          Developer Student Clubs
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/programs/gbg/?hl=zh-tw"><span>
+                          GBG
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/programs/experts/?hl=zh-tw"><span>
+                          Google Developers Experts
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://www.womentechmakers.com/"><span>
+                          Women Techmakers
+                        </span></a></li></ul></div><div class="devsite-dropdown-menu-column"><ul class="devsite-nav-list
+                             devsite-dropdown-menu-section
+                             "><li class="devsite-nav-item devsite-nav-item-heading"><span class="devsite-nav-title devsite-nav-title-no-path"><span>
+                          For startups and agencies
+                        </span></span></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/programs/launchpad/?hl=zh-tw"><span>
+                          Google Developers Launchpad
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/programs/agencies/?hl=zh-tw"><span>
+                          Google Developers Agency Program
+                        </span></a></li></ul></div><div class="devsite-dropdown-menu-column"><ul class="devsite-nav-list
+                             devsite-dropdown-menu-section
+                             "><li class="devsite-nav-item devsite-nav-item-heading"><span class="devsite-nav-title devsite-nav-title-no-path"><span>
+                          Product-specific
+                        </span></span></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://cloud.google.com/community/?hl=zh-tw"><span>
+                          Google Cloud Platform Community
+                        </span></a></li><li class="devsite-nav-item"><a class="devsite-nav-title" href="https://developers.google.com/actions/community/overview?hl=zh-tw"><span>
+                          Google Assistant Developer Community Program
+                        </span></a></li></ul></div></div></div></li><li class="devsite-doc-set-nav-tab-container devsite-nav-tab
+                 "><a href="https://developers.googleblog.com/" class=" devsite-nav-tab
+                  devsite-doc-set-nav-tab devsite-doc-set-nav-tab-link gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Tab: Blog">
+          Blog
+        </a></li></ul><button type="button" class="devsite-overflow-tabs-scroll-button devsite-top-button material-icons devsite-scroll-forward devsite-hidden" aria-label="捲動分頁"></button><button type="button" class="devsite-overflow-tabs-scroll-button devsite-top-button material-icons devsite-scroll-back devsite-hidden" aria-label="捲動分頁"></button></nav></div><form class="devsite-search-form" action="https://developers.google.com/s/results/?hl=zh-tw" method="GET" id="top-search" search-placeholder="搜尋"></form><form class="devsite-language" action="https://developers.google.com/i18n/setlang/?hl=zh-tw" method="post"><input type="hidden" name="xsrf_token" value="RqoMr9BFfyg4u2TBGxVMM2Q0csv9LaQwQB_Fw7AX6Fc6MTU2MDQ4OTc0MTk2MzUyNQ"><input type="hidden" name="next" value="/"><select class="devsite-language-select kd-select" name="language" track-type="languageSelector" track-name="click" style="display: none;"><option>Language</option><option value="id" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="id" track-metadata-original-language="zh-tw" track-metadata-selected-language="id">
+      Bahasa Indonesia
+    </option><option value="de" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="de" track-metadata-original-language="zh-tw" track-metadata-selected-language="de">
+      Deutsch
+    </option><option value="en" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="en" track-metadata-original-language="zh-tw" track-metadata-selected-language="en">
+      English
+    </option><option value="es" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="es" track-metadata-original-language="zh-tw" track-metadata-selected-language="es">
+      español
+    </option><option value="fr" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="fr" track-metadata-original-language="zh-tw" track-metadata-selected-language="fr">
+      français
+    </option><option value="pt-br" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="pt-br" track-metadata-original-language="zh-tw" track-metadata-selected-language="pt-br">
+      Português Brasileiro
+    </option><option value="ru" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="ru" track-metadata-original-language="zh-tw" track-metadata-selected-language="ru">
+      Русский
+    </option><option value="ja" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="ja" track-metadata-original-language="zh-tw" track-metadata-selected-language="ja">
+      日本語
+    </option><option value="zh-cn" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="zh-cn" track-metadata-original-language="zh-tw" track-metadata-selected-language="zh-cn">
+      简体中文
+    </option><option value="zh-tw" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="zh-tw" track-metadata-original-language="zh-tw" track-metadata-selected-language="zh-tw">
+      繁體中文
+    </option><option value="ko" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="ko" track-metadata-original-language="zh-tw" track-metadata-selected-language="ko">
+      한국어
+    </option></select><span class="kd-button kd-menubutton kd-select" track-type="languageSelector" track-name="click"><div class="label">Language</div><div class="kd-disclosureindicator"></div></span></form><button type="button" class="devsite-search-button devsite-header-icon-button button-flat
+                                       material-icons"></button><a href="https://accounts.google.com/ServiceLogin?passive=true&amp;continue=https%3A%2F%2Fdevelopers.google.com%2F%3Frefresh%3D1&amp;service=ahsid&amp;hl=zh-tw" class="devsite-user-signin devsite-top-button button gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Sign in button" track-type="globalNav" track-name="signIn" track-metadata-eventdetail="nav" track-metadata-position="nav">
+  
+  登入
+</a></div></div></div><div class="devsite-collapsible-section" style="margin-top: 0px;"><div class="devsite-header-background devsite-full-site-width"><div class="devsite-collapsible-section-wrapper"><div class="devsite-header-billboard"><h1>Build <strong>anything</strong> with Google</h1></div><div class="devsite-search-wrapper devsite-header-billboard-search-wrapper"><form class="devsite-search-form devsite-billboard-search" action="https://developers.google.com/s/results/?hl=zh-tw" id="billboard-search" method="GET" search-placeholder="搜尋產品和說明文件"><div id="searchbox" class="devsite-searchbox"><input placeholder="搜尋產品和說明文件" type="text" class="devsite-search-field devsite-search-query" name="q" value="" autocomplete="off" aria-label="搜尋框" autofocus=""><div class="devsite-search-image material-icons" aria-hidden="true"></div></div><input type="hidden" name="p" id="search_project" value="/" data-project-name="Google Developers" data-project-path="/" data-query-match="" placeholder="搜尋產品和說明文件"><input type="hidden" class="suggest-project" value="Google Developers" placeholder="搜尋產品和說明文件"><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Android Developers"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Android Open Source Project"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Apigee Docs"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Google Cloud"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Dialogflow"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Firebase"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Android Developers"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Link.app"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="Nest Developers"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="OpenThread"></div><div class="suggest-project-metadata" data-home_url="https://www.orbitera.com/" data-path="/" data-name="Orbitera"></div><div class="suggest-project-metadata" data-home_url="/" data-path="/" data-name="TensorFlow"></div><div class="devsite-popout devsite-popout-closed"><div class="devsite-suggest-results" style="display: none;"></div><div class="devsite-history-container"><div class="devsite-history-wrapper"><div class="devsite-history-side-column"><div class="devsite-history-icon material-icons"></div></div><div class="devsite-history-main-column">登入即可查看您經常造訪的網頁。<div class="devsite-history-footer"><a href="https://myaccount.google.com/privacy#accounthistory" class="devsite-history-preferences-link button button-white">記錄偏好設定</a></div></div></div></div></div><input class="devsite-search-query-param" type="hidden" name="hl" value="zh-tw" placeholder="搜尋產品和說明文件"></form></div></div></div></div></header><script>
+    if (window.jQuery) {
+      $(document).ready(function() {
+        if (window.devsite && window.devsite.search) {
+          
+          window.devsite.search.init('zh-tw')
+        }
+      });
+    }
+  </script></div><div id="gc-wrapper" itemscope="" itemtype="http://schema.org/Article"><input class="google-analytics-id-json" type="hidden" value="{&quot;dimensions&quot;: {&quot;dimension6&quot;: &quot;en&quot;, &quot;dimension4&quot;: &quot;Google Developers&quot;, &quot;dimension5&quot;: &quot;zh-tw&quot;, &quot;dimension3&quot;: false, &quot;dimension1&quot;: &quot;Signed out&quot;, &quot;dimension8&quot;: null}, &quot;gaid&quot;: &quot;UA-24532603-1&quot;}"><script>
+      var dataLayer = [{"freeTrialEligibleUser": "False", "userCountry": "TW", "language": {"requested": "zh-tw", "served": "en"}, "projectName": "Google Developers", "scriptsafe": null, "signedIn": "False", "internalUser": "False"}];
+    </script>
+
+      
+        <div class="devsite-site-mask"></div>
+        
+  
+
+
+<nav class="devsite-nav-responsive devsite-nav nocontent" tabindex="0" style="left: -256px;">
+  
+  <div class="devsite-nav-responsive-tabs-panel">
+    
+      
+        
+
+
+
+<nav class="devsite-nav-responsive-tabs devsite-nav">
+  <ul class="devsite-nav-list">
+  
+
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a href="https://developers.google.com/products/?nav=true&amp;hl=zh-tw" class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  " data-category="Site-Wide Custom Events" data-label="Responsive Tab: Products"><span>
+          Products
+        </span></a>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a href="https://developers.google.com/events/?hl=zh-tw" class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  " data-category="Site-Wide Custom Events" data-label="Responsive Tab: Events"><span>
+          Events
+        </span></a>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a href="https://developers.google.com/programs/?hl=zh-tw" class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  " data-category="Site-Wide Custom Events" data-label="Responsive Tab: Developer Programs"><span>
+          Developer Programs
+        </span></a>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      
+        <a href="https://developers.googleblog.com/" class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event
+                  " data-category="Site-Wide Custom Events" data-label="Responsive Tab: Blog"><span>
+          Blog
+        </span></a>
+      
+
+      
+
+      
+
+      
+    </li>
+  
+
+  
+    <li class="devsite-nav-item devsite-nav-item-heading">
+      <a href="https://developers.google.com/products/?hl=zh-tw" class="devsite-nav-responsive-tab devsite-nav-title gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Responsive Tab: all_products"><span>
+        所有產品
+      </span></a>
+    </li>
+  
+  </ul>
+</nav>
+
+
+      
+    
+  </div>
+  
+  
+  
+    
+      
+        <div class="devsite-nav-responsive-index-panel" data-tab="Products" style="display: none;">
+          <div class="devsite-nav-index-back" data-tab="Products" tabindex="0"></div>
+          <nav>
+            <ul class="devsite-nav-list">
+            
+              
+                
+                <li class="devsite-nav-item devsite-nav-item-heading">
+                  <span class="devsite-nav-title devsite-nav-title-no-path"><span>
+                    Develop
+                  </span></span>
+                </li>
+                
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developer.android.com/?hl=zh-tw"><span>
+                    Android
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://cloud.google.com/?hl=zh-tw"><span>
+                    Cloud Platform
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://firebase.google.com/?hl=zh-tw"><span>
+                    Firebase
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://cloud.google.com/maps-platform/?hl=zh-tw"><span>
+                    Maps Platform
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://www.tensorflow.org/?hl=zh-tw"><span>
+                    TensorFlow
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/web/?hl=zh-tw"><span>
+                    Web
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/youtube/?hl=zh-tw"><span>
+                    YouTube
+                  </span></a>
+                </li>
+                
+              
+            
+              
+                
+                <li class="devsite-nav-item devsite-nav-item-heading">
+                  <span class="devsite-nav-title devsite-nav-title-no-path"><span>
+                    Grow
+                  </span></span>
+                </li>
+                
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://firebase.google.com/?hl=zh-tw"><span>
+                    Firebase
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/google-ads/?hl=zh-tw"><span>
+                    Google Ads
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/analytics/?hl=zh-tw"><span>
+                    Google Analytics
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developer.android.com/distribute/?hl=zh-tw"><span>
+                    Google Play
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/search/?hl=zh-tw"><span>
+                    Search
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/web/fundamentals/engage-and-retain/push-notifications/?hl=zh-tw"><span>
+                    Web Push and Notification APIs
+                  </span></a>
+                </li>
+                
+              
+            
+              
+                
+                <li class="devsite-nav-item devsite-nav-item-heading">
+                  <span class="devsite-nav-title devsite-nav-title-no-path"><span>
+                    Earn
+                  </span></span>
+                </li>
+                
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/admob/?hl=zh-tw"><span>
+                    AdMob
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/google-ads/api/?hl=zh-tw"><span>
+                    Google Ads API
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/pay/?hl=zh-tw"><span>
+                    Google Pay
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developer.android.com/google/play/billing/?hl=zh-tw"><span>
+                    Google Play Billing
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/interactive-media-ads/?hl=zh-tw"><span>
+                    Interactive Media Ads
+                  </span></a>
+                </li>
+                
+              
+            
+            </ul>
+          </nav>
+        </div>
+      
+    
+      
+    
+      
+        <div class="devsite-nav-responsive-index-panel" data-tab="Developer Programs" style="display: none;">
+          <div class="devsite-nav-index-back" data-tab="Developer Programs" tabindex="0"></div>
+          <nav>
+            <ul class="devsite-nav-list">
+            
+              
+                
+                <li class="devsite-nav-item devsite-nav-item-heading">
+                  <span class="devsite-nav-title devsite-nav-title-no-path"><span>
+                    Community-based
+                  </span></span>
+                </li>
+                
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/programs/community/?hl=zh-tw"><span>
+                    Community Groups Program
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/programs/dsc/?hl=zh-tw"><span>
+                    Developer Student Clubs
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/programs/gbg/?hl=zh-tw"><span>
+                    GBG
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/programs/experts/?hl=zh-tw"><span>
+                    Google Developers Experts
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://www.womentechmakers.com/"><span>
+                    Women Techmakers
+                  </span></a>
+                </li>
+                
+              
+            
+              
+                
+                <li class="devsite-nav-item devsite-nav-item-heading">
+                  <span class="devsite-nav-title devsite-nav-title-no-path"><span>
+                    For startups and agencies
+                  </span></span>
+                </li>
+                
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/programs/launchpad/?hl=zh-tw"><span>
+                    Google Developers Launchpad
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/programs/agencies/?hl=zh-tw"><span>
+                    Google Developers Agency Program
+                  </span></a>
+                </li>
+                
+              
+            
+              
+                
+                <li class="devsite-nav-item devsite-nav-item-heading">
+                  <span class="devsite-nav-title devsite-nav-title-no-path"><span>
+                    Product-specific
+                  </span></span>
+                </li>
+                
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://cloud.google.com/community/?hl=zh-tw"><span>
+                    Google Cloud Platform Community
+                  </span></a>
+                </li>
+                
+                <li class="devsite-nav-item">
+                  <a class="devsite-nav-title" href="https://developers.google.com/actions/community/overview?hl=zh-tw"><span>
+                    Google Assistant Developer Community Program
+                  </span></a>
+                </li>
+                
+              
+            
+            </ul>
+          </nav>
+        </div>
+      
+    
+      
+    
+  
+</nav>
+
+
+        <div class="devsite-main-content clearfix" style="margin-top: 0px;">
+
+        
+        
+
+        
+  
+  
+    
+    
+
+    
+  
+
+
+      <article class="devsite-article">
+        <article class="devsite-article-inner">
+  
+          
+  <section class="devsite-landing-row
+                        devsite-landing-row-2-up
+                        devsite-landing-row-cards
+                        devsite-background devsite-background-grey
+                        "><header class="devsite-landing-row-header"><div class="devsite-landing-row-header-text"><h2 id="events">Events</h2></div><div class="devsite-landing-row-header-buttons"><a href="https://developers.google.com/events/?utm_source=devsite&amp;utm_medium=hpp&amp;utm_campaign=events_section&amp;hl=zh-tw" class="button button-white">
+                  View all
+                </a></div></header><div class="devsite-landing-row-group"><div class="devsite-landing-row-item 
+  
+  
+  
+
+  "><figure class="devsite-landing-row-item-image
+            "><a href="https://firebase.google.com/summit/?utm_source=devsite&amp;utm_medium=events&amp;utm_campaign=upcoming&amp;utm_content=DevSite_HPP" data-category="Homepage Promo Banner" data-label="Firebase Summit 2019, Main title" data-action="link"><img src="./Google Developers_files/unnamed.png" srcset="https://lh3.googleusercontent.com/9gyD4jTUWjGIr5R-8u1iG2aBLp7W-YzzzKY-d_Dv5n4ramLypLJaPzMECAh_4w29Sj1_7sSStWbUY50MFmYAACIewTz13Qk=s688 1x,
+              
+                https://lh3.googleusercontent.com/9gyD4jTUWjGIr5R-8u1iG2aBLp7W-YzzzKY-d_Dv5n4ramLypLJaPzMECAh_4w29Sj1_7sSStWbUY50MFmYAACIewTz13Qk=s688 2x
+              "></a></figure><div class="devsite-landing-row-item-description
+                "><a href="https://firebase.google.com/summit/?utm_source=devsite&amp;utm_medium=events&amp;utm_campaign=upcoming&amp;utm_content=DevSite_HPP&amp;hl=zh-tw" data-category="Homepage Promo Banner" data-label="Firebase Summit 2019, Main title" data-action="link"><h3 id="firebase-summit-2019br-september-26-madrid-spain">Firebase Summit 2019<br> September 26 | Madrid, Spain</h3></a><div class="devsite-landing-row-item-description-content"><p>Join us for a day filled with technical talks and demos where you'll get the opportunity to ask questions and give feedback directly to the team that builds Firebase.</p><p><a href="https://twitter.com/search?q=%23FirebaseSummit&amp;src=typd">#FirebaseSummit</a>&nbsp; <a href="https://twitter.com/search?q=%23BetterTogether&amp;src=typd">#BetterTogether</a></p></div><div class="devsite-landing-row-item-buttons"><a href="https://firebase.google.com/summit/?utm_source=devsite&amp;utm_medium=events&amp;utm_campaign=upcoming&amp;utm_content=DevSite_HPP&amp;hl=zh-tw" class="button button-white" data-category="Homepage Promo Banner" data-label="Firebase Summit 2019, Learn more" data-action="button">
+          Learn more
+        </a></div></div></div><div class="devsite-landing-row-item 
+  
+  
+  
+
+  "><figure class="devsite-landing-row-item-image
+            "><a href="https://developer.android.com/dev-summit?utm_source=devsite&amp;utm_medium=events&amp;utm_campaign=upcoming&amp;utm_content=DevSite_HPP" data-category="Homepage Promo Banner" data-label="Android Dev Summit 2019, Main title" data-action="link"><img src="./Google Developers_files/unnamed(1).png" srcset="https://lh3.googleusercontent.com/B9Sqo7MYcJxgCzkljwUKhTAiUrYAL6Emws4EtWnLBqpbqQZgsQ-WUbXpKdD5ygL3i1og-9zb1Hp355X61uoah96TxpeeHw=s688 1x,
+              
+                https://lh3.googleusercontent.com/B9Sqo7MYcJxgCzkljwUKhTAiUrYAL6Emws4EtWnLBqpbqQZgsQ-WUbXpKdD5ygL3i1og-9zb1Hp355X61uoah96TxpeeHw=s688 2x
+              "></a></figure><div class="devsite-landing-row-item-description
+                "><a href="https://developer.android.com/dev-summit?utm_source=devsite&amp;utm_medium=events&amp;utm_campaign=upcoming&amp;utm_content=DevSite_HPP&amp;hl=zh-tw" data-category="Homepage Promo Banner" data-label="Android Dev Summit 2019, Main title" data-action="link"><h3 id="android-dev-summit-2019br-october-23-24-sunnyvale-ca-usa">Android Dev Summit 2019<br> October 23-24 | Sunnyvale, CA, USA</h3></a><div class="devsite-landing-row-item-description-content"><p>Join us for two days of deep technical sessions from, and networking with, the Android engineering team.</p><p><a href="https://twitter.com/search?q=%23AndroidDevSummit&amp;src=typd">#AndroidDevSummit</a></p></div><div class="devsite-landing-row-item-buttons"><a href="https://developer.android.com/dev-summit?utm_source=devsite&amp;utm_medium=events&amp;utm_campaign=upcoming&amp;utm_content=DevSite_HPP&amp;hl=zh-tw" class="button button-white" data-category="Homepage Promo Banner" data-label="Android Dev Summit 2019, Learn more" data-action="button">
+          Learn more
+        </a></div></div></div></div></section><section class="devsite-landing-row
+                        devsite-landing-row-2-up
+                        devsite-landing-row-cards
+                        
+                        "><header class="devsite-landing-row-header"><div class="devsite-landing-row-header-text"><h2 id="news">News</h2></div></header><div class="devsite-landing-row-group"><div class="devsite-landing-row-item 
+  
+  
+  
+
+  "><figure class="devsite-landing-row-item-image
+            "><a href="https://events.withgoogle.com/indie-games-showcase-final-event-in-london/registrations/new/?utm_source=devsite&amp;utm_medium=hpp&amp;utm_campaign=IndieGamesShowcase_final" data-category="Homepage Promo Banner" data-label="Indie Games Showcase Europe, Main title" data-action="link"><img src="./Google Developers_files/unnamed(2).png" srcset="https://lh3.googleusercontent.com/Q10fmH-2EQSj0ux6T9R0RsTf7qpFDqvQeDcceXnqcni54HBH2_-IGh-zGGltkAlYv46LQOcfmIoc_LH230V0l_l5XZXoNw4=s688 1x,
+              
+                https://lh3.googleusercontent.com/Q10fmH-2EQSj0ux6T9R0RsTf7qpFDqvQeDcceXnqcni54HBH2_-IGh-zGGltkAlYv46LQOcfmIoc_LH230V0l_l5XZXoNw4=s688 2x
+              "></a></figure><div class="devsite-landing-row-item-description
+                "><a href="https://events.withgoogle.com/indie-games-showcase-final-event-in-london/registrations/new/?utm_source=devsite&amp;utm_medium=hpp&amp;utm_campaign=IndieGamesShowcase_final" data-category="Homepage Promo Banner" data-label="Indie Games Showcase Europe, Main title" data-action="link"><h3 id="indie-games-showcase-europe-final-eventbr-june-25-london-united-kingdom">Indie Games Showcase Europe - final event<br> June 25 | London, United Kingdom</h3></a><div class="devsite-landing-row-item-description-content"><p>Sign up to attend the final event of the Indie Games Showcase from Google Play at the
+  Saatchi Gallery in London on Tuesday, June 25. Bring along your family or friends for
+  an afternoon of great games and fun, where you can meet the developers behind the games,
+  vote for your favorites and play some of the best new indie games from Europe. Register
+  for free at <a href="https://g.co/play/indiefinal">g.co/play/indiefinal</a></p></div><div class="devsite-landing-row-item-buttons"><a href="https://events.withgoogle.com/indie-games-showcase-final-event-in-london/registrations/new/?utm_source=devsite&amp;utm_medium=hpp&amp;utm_campaign=IndieGamesShowcase_final" class="button button-white" data-category="Homepage Promo Banner" data-label="Indie Games Showcase Europe, Secure your spot" data-action="button">
+          Secure your spot
+        </a></div></div></div><div class="devsite-landing-row-item 
+  
+  
+  
+
+  "><figure class="devsite-landing-row-item-image
+            "><a href="https://developers.google.com/programs/dsc/?utm_source=devsite&amp;utm_medium=hpp&amp;utm_campaign=upcoming&amp;utm_content=DevSite_HPP" data-category="Homepage Promo Banner" data-label="2019 Developer Student Club Leads, Main title" data-action="link"><img src="./Google Developers_files/unnamed(3).png" srcset="https://lh3.googleusercontent.com/FQQvFEbI0_z36GIUkHB09Kqt6_2i2xyUpkY1ZaD48jgV2QEaK3g_zfIrtFZUpUfN9NcaLg9WSCTJCdoW3TB7jRzE1be-0nY=s688 1x,
+              
+                https://lh3.googleusercontent.com/FQQvFEbI0_z36GIUkHB09Kqt6_2i2xyUpkY1ZaD48jgV2QEaK3g_zfIrtFZUpUfN9NcaLg9WSCTJCdoW3TB7jRzE1be-0nY=s688 2x
+              "></a></figure><div class="devsite-landing-row-item-description
+                "><a href="https://developers.google.com/programs/dsc/?utm_source=devsite&amp;utm_medium=hpp&amp;utm_campaign=upcoming&amp;utm_content=DevSite_HPP&amp;hl=zh-tw" data-category="Homepage Promo Banner" data-label="2019 Developer Student Club Leads, Main title" data-action="link"><h3 id="2019-developer-student-club-leads">2019 Developer Student Club Leads</h3></a><div class="devsite-landing-row-item-description-content"><p>Developer Student Clubs train thousands of student developers globally and work with their communities to solve real-life problems. University students who lead a DSC gain access to Google technology, events, and mentorship while training their local community through fun meetups, project building activities, and global competitions.</p></div><div class="devsite-landing-row-item-buttons"><a href="https://developers.google.com/programs/dsc/?utm_source=devsite&amp;utm_medium=hpp&amp;utm_campaign=upcoming&amp;utm_content=DevSite_HPP&amp;hl=zh-tw" class="button button-white" data-category="Homepage Promo Banner" data-label="2019 Developer Student Club Leads, Apply now" data-action="button">
+          Apply now
+        </a></div></div></div></div></section><section class="devsite-landing-row
+                        devsite-landing-row-2-up
+                        devsite-landing-row-cards devsite-landing-row-no-image-background
+                        
+                        "><div class="devsite-landing-row-group"><div class="devsite-landing-row-item 
+  
+  
+  
+
+  "><div class="devsite-landing-row-item-media
+                "><div class="devsite-landing-row-item-youtube"><iframe data-autohide="1" frameborder="0" data-showinfo="0" allowfullscreen="" class="devsite-embedded-youtube-video" id="ytplayer0" data-enablejsapi="1" src="./Google Developers_files/PingeD_5yPQ.html" origin="https://developers.google.com"></iframe></div></div><div class="devsite-landing-row-item-description
+                "><a href="https://events.withgoogle.com/imakeapps/?utm_source=devsite&amp;utm_medium=hpp&amp;utm_campaign=imakeapps_july18" data-category="Homepage Promo Banner" data-label="IMakeApps, Main title" data-action="link"><h3 id="celebrating-app-makers-worldwide">Celebrating app makers worldwide</h3></a><div class="devsite-landing-row-item-description-content"><p>Developers, founders, product managers, designers, and others reveal what they do when they step away from their computers.</p><p>Discover their dreams, passions, and who they are as people.</p></div><div class="devsite-landing-row-item-buttons"><a href="https://events.withgoogle.com/imakeapps/?utm_source=devsite&amp;utm_medium=hpp&amp;utm_campaign=imakeapps_july18" class="button button-white" data-category="Homepage Promo Banner" data-label="IMakeApps, Learn more" data-action="button">
+          Learn more
+        </a><a href="https://events.withgoogle.com/imakeapps/registrations/new/?utm_source=devsite&amp;utm_medium=hpp&amp;utm_campaign=imakeapps_july18" class="button button-white" data-category="Homepage Promo Banner" data-label="IMakeApps, Get featured" data-action="button">
+          Get featured
+        </a></div></div></div><div class="devsite-landing-row-item 
+  
+  
+  
+
+  "><div class="devsite-landing-row-item-media
+                "><div class="devsite-landing-row-item-youtube"><iframe data-autohide="1" frameborder="0" data-showinfo="0" allowfullscreen="" class="devsite-embedded-youtube-video" id="ytplayer1" data-enablejsapi="1" src="./Google Developers_files/ua4QGWmDfB8.html" origin="https://developers.google.com"></iframe></div></div><div class="devsite-landing-row-item-description
+                "><a href="https://developers.google.com/actions/community/overview?utm_source=devsite&amp;utm_medium=hpp&amp;utm_campaign=googleassistantdevcommunity_feb18&amp;hl=zh-tw" data-category="Home page Promo Banner" data-label="Google Assistant developer community program, Main title" data-action="link"><h3 id="google-assistant-developer-community-program">Google Assistant developer community program</h3></a><div class="devsite-landing-row-item-description-content"><p>When you publish an Action for the Google Assistant, you’ll be invited to join our developer community program and receive an Assistant t-shirt, plus up to $200 in Google Cloud credit each month for one year. Hit certain product milestones and you’ll be eligible for Google Home devices, invitations to exclusive events, mentorship by Googlers, and other rewards!</p></div><div class="devsite-landing-row-item-buttons"><a href="https://developers.google.com/actions/community/overview?utm_source=devsite&amp;utm_medium=hpp&amp;utm_campaign=googleassistantdevcommunity_feb18&amp;hl=zh-tw" class="button button-white" data-category="Homepage Promo Banner" data-label="Google Assistant developer community program, Learn more" data-action="button">
+          Learn more
+        </a></div></div></div></div></section>
+
+  
+        
+  
+
+
+
+
+
+
+
+        
+        </article>
+      </article>
+  
+
+        </div>
+      
+
+<footer class="devsite-footer-linkboxes nocontent
+               devsite-footer-linkboxes-all-backup
+               devsite-footer-linkboxes-with-sites"><nav class="devsite-full-site-width"><ul class="devsite-footer-linkboxes-list"><li class="devsite-footer-linkbox devsite-footer-linkbox-backup"><h3 class="devsite-footer-linkbox-heading">連結</h3><ul class="devsite-footer-linkbox-list"><li class="devsite-footer-linkbox-item"><a href="https://googledevelopers.blogspot.com/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Blog Link">
+                網誌
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://www.facebook.com/Google-Developers-967415219957038/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Facebook Link">
+                Facebook
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://medium.com/google-developers" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Medium Link">
+                Medium
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://twitter.com/googledevs" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Twitter Link">
+                Twitter
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://www.youtube.com/user/GoogleDevelopers?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer YouTube Link">
+                YouTube
+            </a></li></ul></li><li class="devsite-footer-linkbox devsite-footer-linkbox-backup"><h3 class="devsite-footer-linkbox-heading">計劃</h3><ul class="devsite-footer-linkbox-list"><li class="devsite-footer-linkbox-item"><a href="https://www.womentechmakers.com/" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Women Techmakers">
+                Women Techmakers
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://developers.google.com/agency/?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Agency">
+                Agency Program
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://developers.google.com/groups/?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Groups">
+                GDG
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://developers.google.com/experts/?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Experts">
+                Google Developers Experts
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://developers.google.com/startups/?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Startups">
+                Startup Launchpad
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://userresearch.google.com/?reserved=0&amp;utm_source=developers.google.com&amp;Q_Language=en&amp;utm_medium=own_srch&amp;utm_campaign=Global-developers&amp;utm_term=0&amp;utm_content=0&amp;productTag=clou&amp;campaignDate=nov18&amp;pType=devel&amp;referral_code=js564523&amp;hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer User Studies">
+                User Studies
+            </a></li></ul></li><li class="devsite-footer-linkbox devsite-footer-linkbox-backup"><h3 class="devsite-footer-linkbox-heading">開發人員控制台</h3><ul class="devsite-footer-linkbox-list"><li class="devsite-footer-linkbox-item"><a href="https://console.developers.google.com/?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Google Developers Console">
+                Google API Console
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://console.cloud.google.com/?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Google Cloud Platform Console">
+                Google Cloud Platform Console
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://play.google.com/apps/publish/?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Google Play Console">
+                Google Play Console
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://console.firebase.google.com/?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Firebase Console">
+                Firebase Console
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://console.actions.google.com/?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Actions on Google Console">
+                Actions on Google Console
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://cast.google.com/publish/?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Cast SDK Developer Console">
+                Cast SDK Developer Console
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://chrome.google.com/webstore/developer/dashboard?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Chrome Web Store Developer Dashboard">
+                Chrome Web Store Dashboard
+            </a></li></ul></li><li class="devsite-footer-linkbox devsite-footer-linkbox-sites"><a href="https://developers.google.com/?hl=zh-tw" class="gc-analytics-event devsite-footer-linkbox-logo-link" data-category="Site-Wide Custom Events" data-label="Footer Google Developers Link"><img class="devsite-footer-linkbox-logo" src="./Google Developers_files/lockup-color-knockout.png" alt="Google Developers"></a><ul class="devsite-footer-linkbox-list"><li class="devsite-footer-linkbox-item"><a href="https://developer.android.com/index.html?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Android Link">
+                Android
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://developer.chrome.com/home" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Chrome Link">
+                Chrome
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://firebase.google.com/?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Firebase Link">
+                Firebase
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://cloud.google.com/?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Cloud Link">
+                Google Cloud Platform
+            </a></li><li class="devsite-footer-linkbox-item"><a href="https://developers.google.com/products/?hl=zh-tw" class="gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Products Link">
+                所有產品
+            </a></li></ul></li></ul></nav></footer><footer class="devsite-utility-footer"><nav class="devsite-utility-footer-nav devsite-nav devsite-full-site-width"><div class="devsite-utility-footer-nav-left"><form class="devsite-language" action="https://developers.google.com/i18n/setlang/?hl=zh-tw" method="post"><input type="hidden" name="xsrf_token" value="RqoMr9BFfyg4u2TBGxVMM2Q0csv9LaQwQB_Fw7AX6Fc6MTU2MDQ4OTc0MTk2MzUyNQ"><input type="hidden" name="next" value="/"><select class="devsite-language-select kd-select" name="language" track-type="languageSelector" track-name="click" style="display: none;"><option>Language</option><option value="id" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="id" track-metadata-original-language="zh-tw" track-metadata-selected-language="id">
+      Bahasa Indonesia
+    </option><option value="de" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="de" track-metadata-original-language="zh-tw" track-metadata-selected-language="de">
+      Deutsch
+    </option><option value="en" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="en" track-metadata-original-language="zh-tw" track-metadata-selected-language="en">
+      English
+    </option><option value="es" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="es" track-metadata-original-language="zh-tw" track-metadata-selected-language="es">
+      español
+    </option><option value="fr" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="fr" track-metadata-original-language="zh-tw" track-metadata-selected-language="fr">
+      français
+    </option><option value="pt-br" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="pt-br" track-metadata-original-language="zh-tw" track-metadata-selected-language="pt-br">
+      Português Brasileiro
+    </option><option value="ru" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="ru" track-metadata-original-language="zh-tw" track-metadata-selected-language="ru">
+      Русский
+    </option><option value="ja" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="ja" track-metadata-original-language="zh-tw" track-metadata-selected-language="ja">
+      日本語
+    </option><option value="zh-cn" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="zh-cn" track-metadata-original-language="zh-tw" track-metadata-selected-language="zh-cn">
+      简体中文
+    </option><option value="zh-tw" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="zh-tw" track-metadata-original-language="zh-tw" track-metadata-selected-language="zh-tw">
+      繁體中文
+    </option><option value="ko" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="ko" track-metadata-original-language="zh-tw" track-metadata-selected-language="ko">
+      한국어
+    </option></select><span class="kd-button kd-menubutton kd-select" track-type="languageSelector" track-name="click"><div class="label">Language</div><div class="kd-disclosureindicator"></div></span></form><span class="devsite-utility-footer-links"><a class="devsite-utility-footer-link gc-analytics-event" href="https://developers.google.com/terms/site-terms?hl=zh-tw" data-category="Site-Wide Custom Events" data-label="Footer terms link" data-footer-link-id="terms">條款
+         </a><a class="devsite-utility-footer-link gc-analytics-event" href="https://policies.google.com/privacy?hl=zh-tw" data-category="Site-Wide Custom Events" data-label="Footer privacy link" data-footer-link-id="privacy">隱私權
+         </a></span></div><div class="devsite-utility-footer-nav-right"><div class="devsite-utility-footer-newsletter-signup-text">
+        訂閱 Google Developers 電子報
+      </div><a class="button button-primary devsite-utility-footer-newsletter-signup-button" href="https://services.google.com/fb/forms/googledevelopersnewsletter/?utm_medium=referral&amp;utm_source=google-products&amp;utm_team=googledevs&amp;utm_campaign=201611-newsletter-launch" track-type="navigateTo" track-name="newsletter" track-metadata-eventdetail="footer" track-metadata-position="footer">
+        
+        訂閱
+      </a></div></nav></footer></div><script async="" defer="" src="./Google Developers_files/api.js.下載"></script><script src="./Google Developers_files/saved_resource"></script><script src="./Google Developers_files/script_foot_closure__zh_tw.js.下載"></script><script src="./Google Developers_files/script_foot.js.下載"></script><script>
+        (function($) {
+          
+          devsite.devsite.Init($, {'ENABLE_BLOCKED_VIDEO_PLACEHOLDER': 0, 'SITE_NAME': 'devsite', 'FULL_SITE_SEARCH_ENABLED': 1, 'ENABLE_CLOUDTRACK': 0, 'VTAGS_ENABLED': 0, 'HISTORY_ENABLED': 1, 'SIDEBAR_MINI_ENABLED': 0, 'VERSION_HASH': 'cd79d5771c', 'SCRIPTSAFE_DOMAIN': 'google-developers.appspot.com', 'ENABLE_BLOCKED_LINK_TOOLTIP': 0, 'ALLOWED_HOSTS': ['.android.com', '.appspot.com', '.gonglchuangl.net', '.google.cn', '.google.com', '.googleplex.com', '.tensorflow.org'], 'BLOCK_RSS_FEEDS': 0},
+                               '[]','zh-tw',
+                               true, '',
+                               {"8de7a048f21618359bd37f5ce44be073": false, "d169d485cf24243a263783dbe42029b1": true, "8e03e230de0bd8a6fe173fdf172e8b3f": true, "098dafe57affddc137df300142652cfd": false, "cb025a64a50094835616312f4774a53d": true, "51470233c56fc1fde50f00b73c52b216": false, "7bacfa01fbefe580ad7e85f2454c75f2": true, "700def1a83e356c06c0925afb05de4b0": false, "6749dcb526ce9bde6993550c7d928d24": true}, '/',
+                               'https://developers.google.com/?hl=zh-tw');
+        })(jQuery);
+
+        
+        devsite.localInit = function() {
+          
+        };
+
+      </script><script>
+      $('.devsite-top-section .devsite-language-select').each(function() {
+        $(this).change(function(){$('.devsite-top-section .devsite-language').submit();});
+      });
+      $('.devsite-utility-footer .devsite-language-select').each(function() {
+        $(this).change(function(){$('.devsite-utility-footer .devsite-language').submit();});
+      });
+      </script></div><span id="devsite-request-elapsed" data-request-elapsed="658.419847488"></span>
+<ul class="kd-menulist devsite-hidden" style="left: 0px; right: auto; top: 0px;"><li class="kd-menulistitem">Language</li><li class="kd-menulistitem" value="id" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="id" track-metadata-original-language="zh-tw" track-metadata-selected-language="id">
+      Bahasa Indonesia
+    </li><li class="kd-menulistitem" value="de" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="de" track-metadata-original-language="zh-tw" track-metadata-selected-language="de">
+      Deutsch
+    </li><li class="kd-menulistitem" value="en" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="en" track-metadata-original-language="zh-tw" track-metadata-selected-language="en">
+      English
+    </li><li class="kd-menulistitem" value="es" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="es" track-metadata-original-language="zh-tw" track-metadata-selected-language="es">
+      español
+    </li><li class="kd-menulistitem" value="fr" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="fr" track-metadata-original-language="zh-tw" track-metadata-selected-language="fr">
+      français
+    </li><li class="kd-menulistitem" value="pt-br" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="pt-br" track-metadata-original-language="zh-tw" track-metadata-selected-language="pt-br">
+      Português Brasileiro
+    </li><li class="kd-menulistitem" value="ru" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="ru" track-metadata-original-language="zh-tw" track-metadata-selected-language="ru">
+      Русский
+    </li><li class="kd-menulistitem" value="ja" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="ja" track-metadata-original-language="zh-tw" track-metadata-selected-language="ja">
+      日本語
+    </li><li class="kd-menulistitem" value="zh-cn" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="zh-cn" track-metadata-original-language="zh-tw" track-metadata-selected-language="zh-cn">
+      简体中文
+    </li><li class="kd-menulistitem" value="zh-tw" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="zh-tw" track-metadata-original-language="zh-tw" track-metadata-selected-language="zh-tw">
+      繁體中文
+    </li><li class="kd-menulistitem" value="ko" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="ko" track-metadata-original-language="zh-tw" track-metadata-selected-language="ko">
+      한국어
+    </li></ul><ul class="kd-menulist devsite-hidden" style="left: 24px; right: auto; top: 2885.1px;"><li class="kd-menulistitem">Language</li><li class="kd-menulistitem" value="id" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="id" track-metadata-original-language="zh-tw" track-metadata-selected-language="id">
+      Bahasa Indonesia
+    </li><li class="kd-menulistitem" value="de" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="de" track-metadata-original-language="zh-tw" track-metadata-selected-language="de">
+      Deutsch
+    </li><li class="kd-menulistitem" value="en" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="en" track-metadata-original-language="zh-tw" track-metadata-selected-language="en">
+      English
+    </li><li class="kd-menulistitem" value="es" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="es" track-metadata-original-language="zh-tw" track-metadata-selected-language="es">
+      español
+    </li><li class="kd-menulistitem" value="fr" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="fr" track-metadata-original-language="zh-tw" track-metadata-selected-language="fr">
+      français
+    </li><li class="kd-menulistitem" value="pt-br" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="pt-br" track-metadata-original-language="zh-tw" track-metadata-selected-language="pt-br">
+      Português Brasileiro
+    </li><li class="kd-menulistitem" value="ru" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="ru" track-metadata-original-language="zh-tw" track-metadata-selected-language="ru">
+      Русский
+    </li><li class="kd-menulistitem" value="ja" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="ja" track-metadata-original-language="zh-tw" track-metadata-selected-language="ja">
+      日本語
+    </li><li class="kd-menulistitem" value="zh-cn" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="zh-cn" track-metadata-original-language="zh-tw" track-metadata-selected-language="zh-cn">
+      简体中文
+    </li><li class="kd-menulistitem" value="zh-tw" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="zh-tw" track-metadata-original-language="zh-tw" track-metadata-selected-language="zh-tw">
+      繁體中文
+    </li><li class="kd-menulistitem" value="ko" track-type="languageSelector" track-name="changed" track-metadata-eventdetail="ko" track-metadata-original-language="zh-tw" track-metadata-selected-language="ko">
+      한국어
+    </li></ul></body></html>
